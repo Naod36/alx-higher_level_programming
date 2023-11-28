@@ -2,8 +2,8 @@
 # Auth- Naod
 
 def uppercase(str):
-    for l in str:
-        if ord(l) >= 97 and ord(l) <= 122:
-            l = chr(ord(l) - 32)
-        print("{}".format(l), end="")
+    for c in str:
+        if ord(c) >= 97 and ord(c) <= 122:
+            c = chr(ord(c) - 32)
+        print("{}".format(c), end="")
     print("")
