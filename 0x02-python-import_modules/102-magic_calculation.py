@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 def magic_calculation(a, b):
-        
     add, sub = __import__('magic_calculation_102', fromlist=('add', 'sub'))
 
     if a < b:
@@ -11,3 +10,8 @@ def magic_calculation(a, b):
         return c
     else:
         return sub(a, b)
+
+# Test
+result = magic_calculation(3, 7)
+print(result)
+
